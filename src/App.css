@@ -44,7 +44,7 @@ body {
   
 }
 
-#submitButton {
+.navButton {
   width: 140px;
   height: 60px;
   
@@ -63,6 +63,7 @@ body {
   vertical-align:top;
   font-weight: bold;
 }
+
 
 .error {
   color: red;

@@ -53,7 +53,7 @@ function Home() {
           onChange={handleChange}
         />
         
-        <button id="submitButton" onClick={navigate}>Find Upcoming Elections in Your Area</button>
+        <button className="navButton" onClick={navigate}>Find Upcoming Elections in Your Area</button>
         
       </div>
       {error && <div className="error">{error}</div>}
